@@ -12,6 +12,7 @@ export default function App() {
           <Title>SolidStart - Basic</Title>
           <a href="/">Index</a>
           <a href="/about">About</a>
+          <p innerHTML={'<a href="http://example.com">test'} />
           <Suspense>{props.children}</Suspense>
         </MetaProvider>
       )}
